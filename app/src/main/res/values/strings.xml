@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">EvaluasiMobile</string>
+    <string name="judul">My App V2</string>
+
+    <string name="konversi_rupiah">Konversi Rupiah</string>
+    <string name="judul_konversi_rupiah">Konversi Rupiah to Dollar</string>
+    <string name="input_rupiah">Input Nilai Rupiah</string>
+    <string name="input_uang">Rp...</string>
+    <string name="rupiah">Hasil Konversi = </string>
+    <string name="hasil_konversi_rupiah"></string>
+
+    <string name="konversi_suhu">Konversi Suhu</string>
+    <string name="judul_konversi_suhu">Konversi Celcius</string>
+    <string name="input_celcius">Input Nilai Celcius</string>
+    <string name="input_suhu">... celcius</string>
+    <string name="fahrenheit">Hasil Konversi Fahrenheit = </string>
+    <string name="hasil_konversi_fahrenheit"></string>
+    <string name="reamur">Hasil Konversi Reamur = </string>
+    <string name="hasil_konversi_reamur"></string>
+    <string name="kelvin">Hasil Konversi Kelvin = </string>
+    <string name="hasil_konversi_kelvin"></string>
+
+</resources>

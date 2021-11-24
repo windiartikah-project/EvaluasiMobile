@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KonversiSuhu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tv_judul_suhu"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="10dp"
+            android:autoSizeTextType="uniform"
+            android:text="@string/judul_konversi_suhu"/>
+
+        <TextView
+            android:id="@+id/et_input_celcius"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="@string/input_celcius"/>
+
+        <EditText
+            android:id="@+id/et_input_suhu"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:inputType="number"
+            android:hint="@string/input_suhu"/>
+
+        <TextView
+            android:id="@+id/tv_fahrenheit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/fahrenheit"/>
+
+        <TextView
+            android:id="@+id/tv_hasil_konversi_fahrenheit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="@string/hasil_konversi_fahrenheit"/>
+
+        <TextView
+            android:id="@+id/tv_reamur"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/reamur"/>
+
+        <TextView
+            android:id="@+id/tv_hasil_konversi_reamur"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="@string/hasil_konversi_reamur"/>
+
+        <TextView
+            android:id="@+id/tv_kelvin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/kelvin"/>
+
+        <TextView
+            android:id="@+id/tv_hasil_konversi_kelvin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="@string/hasil_konversi_kelvin"/>
+
+        <Button
+            android:id="@+id/btn_suhu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cek Suhu"/>
+    </LinearLayout>
+</ScrollView>
